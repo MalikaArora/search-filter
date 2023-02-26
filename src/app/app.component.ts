@@ -22,6 +22,8 @@ export class AppComponent implements OnInit {
   searchOriginalSettings: any[];
 
 git reset HEAD~1
+git pull
+add/commit/push
 
   platformFilter = [];
 

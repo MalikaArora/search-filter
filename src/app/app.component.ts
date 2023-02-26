@@ -89,7 +89,7 @@ export class AppComponent implements OnInit {
     {
         "category": "Customer Portal",
         "query": "If customer wants his machine not visible, what to do ?",
-        "reply": "The customer can see his machine in SiteWatch and will have a choice to enable or disable the machine on SiteWatch. However, the machine will be visible to dealer and CNH Industrial even though the SiteWatch subscription is not renewed."
+        "reply": "The customer can see his machine in SiteWatch and will have a choice to enable or disable the machine on SiteWatch. {{withBreaksHtml}} However, the machine will be visible to dealer and CNH Industrial even though the SiteWatch subscription is not renewed."
     },
     {
         "category": "SMS",
@@ -99,7 +99,7 @@ export class AppComponent implements OnInit {
     {
         "category": "Benefits",
         "query": "How will the dealer Get benefitted from telematics ?",
-        "reply": "The dealer organizations that engage and actively participate with Telematics see greater opportunities and recognize greater profit\n\nIncreased customer touch points\nMore efficient rental fleet monitoring and billing\nMaintenance alerts and more efficient scheduling\nReduced data collection costs\nMore efficient troubleshooting\nOpportunity to up-sell and showcase new products\nIncreased parts sales\nIncreased service department revenue\nHigher machine resale with documented care\nIncreased customer satisfaction"
+        "reply": "The dealer organizations that engage and actively participate with Telematics see greater opportunities and recognize greater profitIncreased customer touch points\nMore efficient rental fleet monitoring and billing\nMaintenance alerts and more efficient scheduling\nReduced data collection costs\nMore efficient troubleshooting\nOpportunity to up-sell and showcase new products\nIncreased parts sales\nIncreased service department revenue\nHigher machine resale with documented care\nIncreased customer satisfaction"
     },
     {
         "category": "Modem",

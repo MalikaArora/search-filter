@@ -21,9 +21,7 @@ export class AppComponent implements OnInit {
   filteredData = '';
   searchOriginalSettings: any[];
 
-git reset HEAD~1
-git pull
-add/commit/push
+
 
   platformFilter = [];
 
@@ -198,5 +196,7 @@ add/commit/push
     this.platformFilter.forEach(item => item.selected = false);
 
   }
-
+git reset HEAD~1
+git pull
+add/commit/push
 }

@@ -29,9 +29,10 @@ export class AppComponent implements OnInit {
     {
         "category": "Modem",
         "query": "Why do use the terminology CM1X?",
+
         "reply": "Because we have two variants of Modem:  <br /> With Internal Antenna (CM100) &amp; With External Antenna (CM110)"
     },
-    {
+  {
         "category": "Internet",
         "query": "Will CM1X although designed to work with 4G, with still work in regions wherein ISPs don’t offer 4G services?",
         "reply": "Yes, CM1X will work with 2G, 3G or LTE (4G) but with subordinate performance and lower speed and with slower data transmission"
@@ -44,7 +45,7 @@ export class AppComponent implements OnInit {
     {
         "category": "Modem",
         "query": "What is the diffence between CM1X and P&amp;CM Modem?",
-        "reply": "Description: Connectivity Module; Processing &amp; Connectivity Module\nInternet:  4G; 4G\nSupplier: Tierra (Topcon); Actia\nParameters: Max 40 parameters on Fleet Portal &amp; UCR; Max 40 parameters on Fleet portal, 80+ parameters on UCR\nCompatibilty: CAN \/ non-CAN machine ; CAN machine\nConnectivity: Wi-Fi \/ Bluetooth; Wi-Fi \/ Bluetooth\nRemote Assistance Feature: No; Yes (with RST)"
+        "reply": "Description: Connectivity Module; Processing &amp; Connectivity Module<br />Internet:  4G; 4G<br />Supplier: Tierra (Topcon); Actia<br />Parameters: Max 40 parameters on Fleet Portal &amp; UCR; Max 40 parameters on Fleet portal, 80+ parameters on UCR<br />Compatibilty: CAN \/ non-CAN machine ; CAN machine<br />Connectivity: Wi-Fi \/ Bluetooth; Wi-Fi \/ Bluetooth<br />Remote Assistance Feature: No; Yes (with RST)"
     },
     {
         "category": "Modem",
@@ -79,7 +80,7 @@ export class AppComponent implements OnInit {
     {
         "category": "Benefits",
         "query": "How will be the customer benefit?",
-        "reply": "Equipment Utilization\nIdle Time \/ Fuel Reporting\nPreventive Maintenance Management\nEquipment location (for operational dispatch, service\/repair\/theft prevention)\nEquipment availability for jobs\nPre and Post Inspection gaps and deficiencies, and manual processes\nConfirmation of asset use and location, i.e. change orders, billable work stoppage"
+        "reply": "Equipment Utilization <br />Idle Time <br /> Fuel Reporting <br />Preventive Maintenance Management<br />Equipment location (for operational dispatch, service\/repair\/theft prevention)\nEquipment availability for jobs<br />Pre and Post Inspection gaps and deficiencies, and manual processes<br />Confirmation of asset use and location, i.e. change orders, billable work stoppage"
     },
     {
         "category": "Benefits",
@@ -89,7 +90,7 @@ export class AppComponent implements OnInit {
     {
         "category": "Customer Portal",
         "query": "If customer wants his machine not visible, what to do ?",
-        "reply": "The customer can see his machine in SiteWatch and will have a choice to enable or disable the machine on SiteWatch. However, the machine will be visible to dealer and CNH Industrial even though the SiteWatch subscription is not renewed."
+        "reply": "The customer can see his machine in SiteWatch and will have a choice to enable or disable the machine on SiteWatch. {{withBreaksHtml}} However, the machine will be visible to dealer and CNH Industrial even though the SiteWatch subscription is not renewed."
     },
     {
         "category": "SMS",
@@ -99,7 +100,7 @@ export class AppComponent implements OnInit {
     {
         "category": "Benefits",
         "query": "How will the dealer Get benefitted from telematics ?",
-        "reply": "The dealer organizations that engage and actively participate with Telematics see greater opportunities and recognize greater profit\n\nIncreased customer touch points\nMore efficient rental fleet monitoring and billing\nMaintenance alerts and more efficient scheduling\nReduced data collection costs\nMore efficient troubleshooting\nOpportunity to up-sell and showcase new products\nIncreased parts sales\nIncreased service department revenue\nHigher machine resale with documented care\nIncreased customer satisfaction"
+        "reply": "The dealer organizations that engage and actively participate with Telematics see greater opportunities and recognize greater profitIncreased customer touch points\nMore efficient rental fleet monitoring and billing\nMaintenance alerts and more efficient scheduling\nReduced data collection costs\nMore efficient troubleshooting\nOpportunity to up-sell and showcase new products\nIncreased parts sales\nIncreased service department revenue\nHigher machine resale with documented care\nIncreased customer satisfaction"
     },
     {
         "category": "Modem",

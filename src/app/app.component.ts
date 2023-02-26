@@ -29,7 +29,7 @@ export class AppComponent implements OnInit {
     {
         "category": "Modem",
         "query": "Why do use the terminology CM1X?",
-        "reply": "Because we have two variants of Modem: With Internal Antenna (CM100) &amp; With External Antenna (CM110)"
+        "reply": "Because we have two variants of Modem:  <br /> With Internal Antenna (CM100) &amp; With External Antenna (CM110)"
     },
     {
         "category": "Internet",

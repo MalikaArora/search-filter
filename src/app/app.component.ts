@@ -44,7 +44,7 @@ export class AppComponent implements OnInit {
     {
         "category": "Modem",
         "query": "What is the diffence between CM1X and P&amp;CM Modem?",
-        "reply": "Description: Connectivity Module; Processing &amp; Connectivity Module\nInternet:  4G; 4G\nSupplier: Tierra (Topcon); Actia\nParameters: Max 40 parameters on Fleet Portal &amp; UCR; Max 40 parameters on Fleet portal, 80+ parameters on UCR\nCompatibilty: CAN \/ non-CAN machine ; CAN machine\nConnectivity: Wi-Fi \/ Bluetooth; Wi-Fi \/ Bluetooth\nRemote Assistance Feature: No; Yes (with RST)"
+        "reply": "Description: Connectivity Module; Processing &amp; Connectivity Module<br />Internet:  4G; 4G<br />Supplier: Tierra (Topcon); Actia<br />Parameters: Max 40 parameters on Fleet Portal &amp; UCR; Max 40 parameters on Fleet portal, 80+ parameters on UCR<br />Compatibilty: CAN \/ non-CAN machine ; CAN machine<br />Connectivity: Wi-Fi \/ Bluetooth; Wi-Fi \/ Bluetooth<br />Remote Assistance Feature: No; Yes (with RST)"
     },
     {
         "category": "Modem",

@@ -29,7 +29,7 @@ export class AppComponent implements OnInit {
     {
         "category": "Modem",
         "query": "Why do use the terminology CM1X?",
-        "reply": "Because we have two variants of Modem: <br \>With Internal Antenna (CM100) &amp; With External Antenna (CM110)"
+        "reply": "Because we have two variants of Modem: <br />With Internal Antenna (CM100) &amp; With External Antenna (CM110)"
     }
     {
         "category": "Internet",
@@ -79,7 +79,7 @@ export class AppComponent implements OnInit {
     {
         "category": "Benefits",
         "query": "How will be the customer benefit?",
-        "reply": "Equipment Utilization\nIdle Time \/ Fuel Reporting\nPreventive Maintenance Management\nEquipment location (for operational dispatch, service\/repair\/theft prevention)\nEquipment availability for jobs\nPre and Post Inspection gaps and deficiencies, and manual processes\nConfirmation of asset use and location, i.e. change orders, billable work stoppage"
+        "reply": "Equipment Utilization <br />Idle Time <br /> Fuel Reporting <br />Preventive Maintenance Management<br />Equipment location (for operational dispatch, service\/repair\/theft prevention)\nEquipment availability for jobs<br />Pre and Post Inspection gaps and deficiencies, and manual processes<br />Confirmation of asset use and location, i.e. change orders, billable work stoppage"
     },
     {
         "category": "Benefits",

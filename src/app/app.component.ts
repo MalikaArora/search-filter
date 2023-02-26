@@ -29,9 +29,10 @@ export class AppComponent implements OnInit {
     {
         "category": "Modem",
         "query": "Why do use the terminology CM1X?",
-        "reply": "Because we have two variants of Modem: <br />With Internal Antenna (CM100) &amp; With External Antenna (CM110)"
-    }
-    {
+
+        "reply": "Because we have two variants of Modem:  <br /> With Internal Antenna (CM100) &amp; With External Antenna (CM110)"
+    },
+  {
         "category": "Internet",
         "query": "Will CM1X although designed to work with 4G, with still work in regions wherein ISPs don’t offer 4G services?",
         "reply": "Yes, CM1X will work with 2G, 3G or LTE (4G) but with subordinate performance and lower speed and with slower data transmission"

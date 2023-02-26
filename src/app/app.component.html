@@ -6,10 +6,18 @@
         placeholder="Enter text to search" autofocus>
     </div>
     <ul class="list-group list-group-flush">
-      <li class="list-group-item" *ngFor="let c of characters | appFilter: searchText" appHighlight
-        [searchedWord]="searchText" [content]="c" [classToApply]="'font-weight-bold'" [setTitle]="'true'">
-        {{c}}
-      </li>
+      <div *ngFor="let c of data | appFilter: searchText" style="display: flex; flex-direction: row;">
+        <li class="list-group-item" appHighlight
+        [searchedWord]="searchText" [content]="c.query" [classToApply]="'font-weight-bold'" [setTitle]="'true'">
+        {{c.query}}
+    </li>
+    <li class="list-group-item" appHighlight
+        [searchedWord]="searchText" [content]="c.answer" [classToApply]="'font-weight-bold'" [setTitle]="'true'">
+        {{c.answer}}
+    </li>
+      </div>
+      
     </ul>
+    
   </div>
 </div>

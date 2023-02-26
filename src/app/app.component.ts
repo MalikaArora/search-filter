@@ -69,7 +69,7 @@ export class AppComponent implements OnInit {
     {
         "category": "Subscription",
         "query": "What is the subscription cost for 2nd and third year?&nbsp;",
-        "reply": "We are yet to decide on this, but the &nbsp;approximate cost will $80-$90 per annum.&nbsp;We will come up with an attractive plan"
+        "reply": "We are yet to decide on this, but the &nbsp;approximate cost will $80-$90 per annum. <br/> We will come up with an attractive plan"
     },
     {
         "category": "Mobile Application",

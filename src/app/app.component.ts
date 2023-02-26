@@ -27,7 +27,7 @@ export class AppComponent implements OnInit {
 
   data = [
     {
-        "category": "Modem-Malika",
+        "category": "Modem-Malika Sidak",
         "query": "Why do use the terminology CM1X?",
 
         "reply": "Because we have two variants of Modem:  <br/> With Internal Antenna (CM100) &amp; With External Antenna (CM110)"

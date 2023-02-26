@@ -39,7 +39,7 @@ export class AppComponent implements OnInit {
     {
         "category": "Machines",
         "query": "How is the Fuel Consumption monitoried for CAN &amp; non-CAN\nMachines?",
-        "reply": "We can monitor the fuel consumption only for the CAN Machines.\nFor non-CAN Machines, as we receive only analog signals, we will report only Fuel Level on the\nCustomer Subscription as it is not possible to report Fuel Consumption."
+        "reply": "We can monitor the fuel consumption only for the CAN Machines. <br /> For non-CAN Machines, as we receive only analog signals, we will report only Fuel Level on the\nCustomer Subscription as it is not possible to report Fuel Consumption."
     },
     {
         "category": "Modem",
@@ -168,7 +168,6 @@ export class AppComponent implements OnInit {
 
       }
     } else {
-      console.log("here");
       if (this.platformList.size === 0) {
         this.searchIsOn = false;
         console.log(this.searchIsOn);

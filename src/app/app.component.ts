@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {
   filteredData = '';
   searchOriginalSettings: any[];
 
-
+git reset HEAD~1
 
   platformFilter = [];
 

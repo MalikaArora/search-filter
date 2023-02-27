@@ -17,7 +17,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --poll=1000",
     "build": "ng build --configuration production --watch",
     "test": "ng test",
     "lint": "ng lint",

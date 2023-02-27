@@ -100,7 +100,7 @@ export class AppComponent implements OnInit {
     {
         "category": "Benefits",
         "query": "How will the dealer Get benefitted from telematics ?",
-        "reply": "The dealer organizations that engage and actively participate with Telematics see greater opportunities and recognize greater profitIncreased customer touch points\nMore efficient rental fleet monitoring and billing\nMaintenance alerts and more efficient scheduling\nReduced data collection costs\nMore efficient troubleshooting\nOpportunity to up-sell and showcase new products\nIncreased parts sales\nIncreased service department revenue\nHigher machine resale with documented care\nIncreased customer satisfaction"
+        "reply": "The dealer organizations that engage and actively participate with Telematics see greater opportunities and recognize greater profit <br/> Increased customer touch points\nMore efficient rental fleet monitoring and billing\nMaintenance alerts and more efficient scheduling\nReduced data collection costs\nMore efficient troubleshooting\nOpportunity to up-sell and showcase new products\nIncreased parts sales\nIncreased service department revenue\nHigher machine resale with documented care\nIncreased customer satisfaction"
     },
     {
         "category": "Modem",

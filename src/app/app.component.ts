@@ -196,10 +196,4 @@ export class AppComponent implements OnInit {
     this.platformFilter.forEach(item => item.selected = false);
 
   }
-git reset HEAD~1
-git pull
-add/commit/push
-<meta http-equiv='cache-control' content='no-cache'> 
-<meta http-equiv='expires' content='0'> 
-<meta http-equiv='pragma' content='no-cache'>
 }

@@ -1,10 +1,19 @@
 <div class="content" role="main">
-    <div class="card">
-      <div class="form-group">
-        <label for="search-text">Search Text</label>
-        <input type="email" class="form-control" id="search-text" aria-describedby="search-text" [(ngModel)]="searchText"
-          placeholder="Enter text to search" autofocus (input)="onSearchOrders(searchText)">
+  <div class="card">
+    <div class="form-group">
+      <img src="../../../assets/images/FAQs.jpg" style="height: 200px;">
+      <div class="search-filter">
+        <div>
+          <label for="search-text">Search by text</label>
+          <br>
+          <input type="email" class="form-control" id="search-text" aria-describedby="search-text" [(ngModel)]="searchText"
+            placeholder="Enter text to search" autofocus (input)="onSearchOrders(searchText)">
+        </div>
+
         <div class="platform-filters">
+          <label for="search-text">Search by category</label>
+          <br>
+
           <span class="ctx-platform-text" *ngFor="let platform of platformFilter">
             <input type="checkbox" [checked]="platform.selected" [(ngModel)]="platform.selected"
               attr.id="check-box-{{platform.name}}" (change)="onPlatformChecked(platform.selected, platform)" />
@@ -12,47 +21,49 @@
           </span>
         </div>
       </div>
-  
-  
-      <table class="faq-table">
-        <tr>
-          <th>Categoryy</th>
-          <th>Query</th>
-          <th>Reply</th>
-        </tr>
-        <ng-container *ngIf="searchIsOn">
-          <tr *ngFor="let a of searchSettings; let i = index">
-            <td class="list-group-item" appHighlight [searchedWord]="searchText" [content]="a.category"
-              [classToApply]="'font-weight-bold'" [setTitle]="'true'">
-              {{a.category}}
-            </td>
-            <td class="list-group-item" appHighlight [searchedWord]="searchText" [content]="a.query"
-              [classToApply]="'font-weight-bold'" [setTitle]="'true'">
-              {{a.query}}
-            </td>
-            <td class="list-group-item" appHighlight [searchedWord]="searchText" [content]="a.reply"
-              [classToApply]="'font-weight-bold'" [setTitle]="'true'">
-              {{a.reply}}
-            </td>
-          </tr>
-        </ng-container>
-  
-        <ng-container *ngIf="!searchIsOn">
-          <tr *ngFor="let a of data; let i = index">
-            <td class="list-group-item" appHighlight [searchedWord]="searchText" [content]="a.category"
-              [classToApply]="'font-weight-bold'" [setTitle]="'true'">
-              {{a.category}}
-            </td>
-            <td class="list-group-item" appHighlight [searchedWord]="searchText" [content]="a.query"
-              [classToApply]="'font-weight-bold'" [setTitle]="'true'">
-              {{a.query}}
-            </td>
-            <td class="list-group-item" appHighlight [searchedWord]="searchText" [content]="a.reply"
-              [classToApply]="'font-weight-bold'" [setTitle]="'true'">
-              {{a.reply}}
-            </td>
-          </tr>
-        </ng-container>
-      </table>
+      
     </div>
+
+
+    <table class="faq-table">
+      <tr>
+        <th>Category</th>
+        <th>Query</th>
+        <th>Reply</th>
+      </tr>
+      <ng-container *ngIf="searchIsOn">
+        <tr *ngFor="let a of searchSettings; let i = index">
+          <td class="list-group-item" appHighlight [searchedWord]="searchText" [content]="a.category"
+            [classToApply]="'font-weight-bold'" [setTitle]="'true'">
+            {{a.category}}
+          </td>
+          <td class="list-group-item" appHighlight [searchedWord]="searchText" [content]="a.query"
+            [classToApply]="'font-weight-bold'" [setTitle]="'true'">
+            {{a.query}}
+          </td>
+          <td class="list-group-item" appHighlight [searchedWord]="searchText" [content]="a.reply"
+            [classToApply]="'font-weight-bold'" [setTitle]="'true'">
+            {{a.reply}}
+          </td>
+        </tr>
+      </ng-container>
+
+      <ng-container *ngIf="!searchIsOn">
+        <tr *ngFor="let a of data; let i = index">
+          <td class="list-group-item" appHighlight [searchedWord]="searchText" [content]="a.category"
+            [classToApply]="'font-weight-bold'" [setTitle]="'true'">
+            {{a.category}}
+          </td>
+          <td class="list-group-item" appHighlight [searchedWord]="searchText" [content]="a.query"
+            [classToApply]="'font-weight-bold'" [setTitle]="'true'">
+            {{a.query}}
+          </td>
+          <td class="list-group-item" appHighlight [searchedWord]="searchText" [content]="a.reply"
+            [classToApply]="'font-weight-bold'" [setTitle]="'true'">
+            {{a.reply}}
+          </td>
+        </tr>
+      </ng-container>
+    </table>
   </div>
+</div>

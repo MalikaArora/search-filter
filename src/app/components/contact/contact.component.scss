@@ -10,10 +10,11 @@
 form.contact {
 	display: flex;
 	flex-direction: column;
-	max-width: 400px;
-	width: 400px;
+	max-width: 600px;
+	width: 600px;
 	// margin-right: auto;
 	margin-top: 30px;
+	padding-bottom: 50px;
 	
 	mat-label {
 		font-weight: 600;
@@ -25,11 +26,19 @@ button {
 	margin-bottom: 15px;
 }
 
+button {
+	cursor: pointer;
+}
+
 textarea {
 	margin-top: 25px;
+	width: 500px;
 }
 button {
 	margin-top: 10px;
+	font-family: 'century gothic';
+	font-weight: bold;
+	font-size: larger;
 	background-color: transparent;
 	color: black;
 	border: 1px solid black;
@@ -44,17 +53,18 @@ button:hover:enabled{
 }
 
 .contact-image {
-	width: 100vw;
-	height: 450px;
-	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	gap: 200px;
 }
 
 .contact-form {
-	margin-top: -5em;
-	padding-top: 1em;
-	margin-left: 10em;
-	background-color: white;
-	position: relative;
-	padding-left: 2em;
+	// margin-top: -5em;
+	// padding-top: 1em;
+	// margin-left: 10em;
+	// background-color: white;
+	// position: relative;
+	// padding-left: 2em;
+	width: 500px;
 
 }

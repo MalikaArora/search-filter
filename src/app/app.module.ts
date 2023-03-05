@@ -15,6 +15,10 @@ import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './components/home/home.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { routing } from './app.routing';
+import { ModemDetailsComponent } from './components/modem-details/modem-details.component';
+import { ModemPartComponent } from './components/modem-part/modem-part.component';
+import { InternetPartsComponent } from './components/internet-parts/internet-parts.component';
+
 
 @NgModule({
   declarations: [
@@ -23,7 +27,10 @@ import { routing } from './app.routing';
     FilterPipe,
     ContactComponent,
     HomeComponent,
-    BlogComponent
+    BlogComponent,
+    ModemDetailsComponent,
+    ModemPartComponent,
+    InternetPartsComponent
   ],
   imports: [
     BrowserModule,
@@ -34,12 +41,17 @@ import { routing } from './app.routing';
     MatInputModule,
     BrowserAnimationsModule,
     routing,
-    MatIconModule                    
+    MatIconModule    
+                
   ],
   exports: [
     ContactComponent,
     HomeComponent,
-    BlogComponent
+    BlogComponent,
+    ModemDetailsComponent,
+    ModemPartComponent,
+    InternetPartsComponent
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -9,7 +9,7 @@ const appRoutes: Routes = [
     { path: 'tab3', component: BlogComponent },
 
     // otherwise redirect to home
-    { path: '**', redirectTo: '' }
+    { path: '**', redirectTo: 'tab1' }
 ];
 
 export const routing = RouterModule.forRoot(appRoutes);

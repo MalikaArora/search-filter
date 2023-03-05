@@ -39,7 +39,7 @@ export class ContactComponent {
       this.isLoading = true; // sending the post request async so it's in progress
       this.submitted = false; // hide the response message on multiple submits
       this.http.post(
-        "https://script.google.com/macros/s/AKfycbx8h5p5BQH2eZnxmeSTvErydVkI56QJUWwnNlaDwoub_eNxzDe4FM2Q0zLBNCMfmBsFGA/exec"
+        "https://script.google.com/macros/s/AKfycbzeKU9Iwm60FJL0ronk771R-h7Pl1eoWf82B8gaPLpmeIxhM_IBelk3m-Xgv53c83E/exec"
         , formData).subscribe(
           (response) => {
             // choose the response message

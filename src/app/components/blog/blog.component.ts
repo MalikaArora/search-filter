@@ -27,6 +27,12 @@ export class BlogComponent {
   data = [
     {
       "category": "Modem",
+      "query": "What is the diffence between CM1X and P&CM Modem?",
+      "reply": "<img src='../../../assets/images/answer.bmp' style='height: 300px'>",
+      "meta" : "Connectivity Module"
+    },
+    {
+      "category": "Modem",
       "query": "Why do use the terminology CM1X?",
       "reply": "Because we have two variants of Modem: With Internal Antenna (CM100) &amp; With External Antenna (CM110)"
     },
@@ -129,17 +135,22 @@ export class BlogComponent {
       console.log(this.platformSettings);
       console.log(this.searchIsOn);
       if (this.searchIsOn) {
-        console.log("filter ", Object.values(this.searchSettings)
-        .filter((item) => item.query.toLowerCase().includes(trimmedKeyLowerCase)));
+        console.log("here1");
+        if (this.platformSettings.length == 0) this.searchSettings = this.data;
         this.searchSettings = Object.values(this.searchSettings)
-          .filter((item) => item.query.toLowerCase().includes(trimmedKeyLowerCase));
+          .filter((item) => item.query.toLowerCase().includes(trimmedKeyLowerCase)
+          || item.reply.toLowerCase().includes(trimmedKeyLowerCase)
+          || item.meta?.toLowerCase().includes(trimmedKeyLowerCase));
       }
 
       else {
         this.searchIsOn = true;
         // this.searchSettings = [];
+        console.log("searchOriginalSettings ", this.searchOriginalSettings);
         this.searchSettings = Object.values(this.searchOriginalSettings)
-          .filter((item) => item.query.toLowerCase().includes(trimmedKeyLowerCase));
+          .filter((item) => item.query.toLowerCase().includes(trimmedKeyLowerCase)
+          || item.reply.toLowerCase().includes(trimmedKeyLowerCase)
+          || item.meta.toLowerCase().includes(trimmedKeyLowerCase));
       }
       console.log(searchKey);
 

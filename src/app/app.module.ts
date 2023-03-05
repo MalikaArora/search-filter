@@ -4,6 +4,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from "@angular/common/http";
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from "@angular/material/input";
+import {MatIconModule} from "@angular/material/icon";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
 import { AppComponent } from './app.component';
@@ -32,7 +33,8 @@ import { routing } from './app.routing';
     NoopAnimationsModule,
     MatInputModule,
     BrowserAnimationsModule,
-    routing
+    routing,
+    MatIconModule                    
   ],
   exports: [
     ContactComponent,

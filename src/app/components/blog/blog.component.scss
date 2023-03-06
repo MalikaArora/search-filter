@@ -1,15 +1,19 @@
-.content {
+// .content {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+.card {
+  flex-direction: column;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.card {
-  padding: 1.5rem;
+  padding: 1.5rem !important;
   border-width: 0.2rem;
   border: solid #f8f9fa;
   position: relative;
-  margin: 1rem 1rem;
+  // margin: 1rem 1rem;
   min-width: 500px;
 }
 
@@ -22,14 +26,15 @@
   .search-filter {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    // padding: 10px;
 
     div {
-    margin: 10px;
+    margin: 10px 0 10px 10px;
     border: 1px solid #ced4da;
     padding: 10px;
     height: 80px;
     align-items: center;
+    // width: 100%;
     label {
       color: #c3231e;
       font-weight: bold;
@@ -88,16 +93,36 @@
   }
 }
 
+.faq-table {
+  width: 100%;
+}
+
 .faq-table,
 th,
 td {
   border: 0.1px solid;
   border-collapse: collapse;
-
+  padding: 5px;
 }
 
 .faq-table {
   th {
     text-align: center;
   }
+}
+
+.filter {
+  &-container{
+    display: flex;
+  flex-wrap: wrap;
+  }
+
+  &-text {
+    align-content: center;
+    white-space: nowrap;
+    font-weight: 500;
+    height: 30px;
+    padding: 0 4px 0 4px;
+  }
+  
 }

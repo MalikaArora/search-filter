@@ -1,4 +1,4 @@
-<div class="content" role="main">
+<!-- <div class="content" role="main"> -->
   <div class="card">
     <div class="form-group">
       <img src="../../../assets/images/FAQs.jpg" style="height: 200px;">
@@ -14,11 +14,14 @@
           <label for="search-text">Search by category</label>
           <br>
 
-          <span class="ctx-platform-text" *ngFor="let platform of platformFilter">
-            <input type="checkbox" [checked]="platform.selected" [(ngModel)]="platform.selected"
-              attr.id="check-box-{{platform.name}}" (change)="onPlatformChecked(platform.selected, platform)" />
-            {{platform.name}}
+          <span class="filter-container">
+            <span class="filter-text" *ngFor="let platform of platformFilter">
+              <input type="checkbox" [checked]="platform.selected" [(ngModel)]="platform.selected"
+                attr.id="check-box-{{platform.name}}" (change)="onPlatformChecked(platform.selected, platform)" />
+              {{platform.name}}
+            </span>
           </span>
+          
         </div>
       </div>
       
@@ -66,4 +69,4 @@
       </ng-container>
     </table>
   </div>
-</div>
+<!-- </div> -->

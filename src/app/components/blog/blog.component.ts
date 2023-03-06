@@ -28,7 +28,7 @@ export class BlogComponent {
     {
       "category": "Modem",
       "query": "What is the diffence between CM1X and P&CM Modem?",
-      "reply": "<object type='text/html' data='Book1.htm'><p>backup content</p></object><img src='../../../assets/images/answer.bmp' style='height: 300px'>",
+      "reply": "<img src='../../../assets/images/answer.bmp' style='height: 300px'>",
       "meta" : "Connectivity Module"
     },
     {

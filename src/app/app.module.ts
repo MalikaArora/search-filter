@@ -18,6 +18,8 @@ import { routing } from './app.routing';
 import { ModemDetailsComponent } from './components/modem-details/modem-details.component';
 import { ModemPartComponent } from './components/modem-part/modem-part.component';
 import { InternetPartsComponent } from './components/internet-parts/internet-parts.component';
+import { SubscriptionPartsComponent } from './components/subscription-parts/subscription-parts.component';
+import { UniversaldiaPartsComponent } from './components/universaldia-parts/universaldia-parts.component';
 
 
 @NgModule({
@@ -30,7 +32,10 @@ import { InternetPartsComponent } from './components/internet-parts/internet-par
     BlogComponent,
     ModemDetailsComponent,
     ModemPartComponent,
-    InternetPartsComponent
+    InternetPartsComponent,
+    SubscriptionPartsComponent,
+    UniversaldiaPartsComponent
+
   ],
   imports: [
     BrowserModule,
@@ -50,7 +55,9 @@ import { InternetPartsComponent } from './components/internet-parts/internet-par
     BlogComponent,
     ModemDetailsComponent,
     ModemPartComponent,
-    InternetPartsComponent
+    InternetPartsComponent,
+    SubscriptionPartsComponent,
+    UniversaldiaPartsComponent
 
   ],
   providers: [],

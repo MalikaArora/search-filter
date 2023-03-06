@@ -5,6 +5,8 @@ import { HomeComponent } from './components/home/home.component';
 import { ModemDetailsComponent } from './components/modem-details/modem-details.component';
 import { ModemPartComponent } from './components/modem-part/modem-part.component';
 import { InternetPartsComponent } from './components/internet-parts/internet-parts.component';
+import { SubscriptionPartsComponent } from './components/subscription-parts/subscription-parts.component';
+import { UniversaldiaPartsComponent } from './components/universaldia-parts/universaldia-parts.component';
 
 const appRoutes: Routes = [
     { path: 'tab1', component: HomeComponent },
@@ -20,9 +22,18 @@ const appRoutes: Routes = [
             path: 'submodule2',
             component: InternetPartsComponent,
           },
-        {
+          {
+            path: 'submodule3',
+            component: SubscriptionPartsComponent,
+          },
+          {
+            path: 'submodule4',
+            component: UniversaldiaPartsComponent,
+          },
+
+          {
           path: '',
-          redirectTo: 'submodule1',
+          redirectTo: '',
           pathMatch: 'full'
         }
       ] },

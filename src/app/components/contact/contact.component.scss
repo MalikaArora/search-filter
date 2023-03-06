@@ -1,6 +1,11 @@
 @font-face {
 	font-family: 'Century Gothic';
-	src: url('../../../assets/fonts/Century Gothic/Century Gothic.ttf');
+	src: url('../../../assets/fonts/Century Gothic/century-gothic/CenturyGothic.ttf');
+  }
+  @font-face {
+	font-family: 'Century Gothic';
+	src: url('../../../assets/fonts/Century Gothic/century-gothic/GOTHICB.TTF');
+	font-weight: bold;
   }
 
 .hidden {
@@ -22,7 +27,7 @@ form.contact {
 	padding-bottom: 50px;
 	
 	mat-label {
-		font-weight: 600;
+		font-weight: bold;
 	}
 }
 input,

@@ -18,7 +18,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --poll=1000",
-    "build": "ng build --configuration production --watch",
+    "build": "ng build --configuration production && node scripts/patch-build.js",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",

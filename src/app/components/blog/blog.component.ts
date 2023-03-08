@@ -78,7 +78,7 @@ export class BlogComponent {
     },
     {
       "category": "Benefits",
-      "query": "How will be the customer benefit?",
+      "query": "How will the customer benefit?",
       "reply": "<ul> <li> Equipment Utilization </li><li>Idle Time </li> <li>Fuel Reporting </li> <li>Preventive Maintenance Management</li><li>Equipment location (for operational dispatch, service\/repair\/theft prevention)</li><li>Equipment availability for jobs</li> <li>Pre and Post Inspection gaps and deficiencies, and manual processes</li> <li>Confirmation of asset use and location, i.e. change orders, billable work stoppage</li>"
     },
     {
@@ -98,7 +98,7 @@ export class BlogComponent {
     },
     {
       "category": "Benefits",
-      "query": "How will the dealer Get benefitted from telematics ?",
+      "query": "How will the dealer get benefitted from telematics ?",
       "reply": "<ul><li>The dealer organizations that engage and actively participate with Telematics see greater opportunities and recognize greater profit </li><li>Increased customer touch points</li><li>More efficient rental fleet monitoring and billing</li><li>Maintenance alerts and more efficient scheduling</li><li>Reduced data collection costs</li><li>More efficient troubleshooting</li><li>Opportunity to up-sell and showcase new products</li><li>Increased parts sales</li><li>Increased service department revenue</li><li>Higher machine resale with documented care</li><li>Increased customer satisfaction</li></ul>"},
     {
       "category": "Modem",

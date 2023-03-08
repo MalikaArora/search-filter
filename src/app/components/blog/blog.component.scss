@@ -102,6 +102,10 @@ td {
   th {
     text-align: center;
   }
+
+  td {
+    vertical-align: top !important;
+  }
 }
 
 .filter {

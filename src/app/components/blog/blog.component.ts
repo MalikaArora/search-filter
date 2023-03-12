@@ -107,7 +107,7 @@ export class BlogComponent {
     },
     {
       "category": "Modem",
-      "query": "What is the battery back-up time for the Modem or For how much time the Modem (CM1x) will track the machine without Machine Ignition switched on ?",
+      "query": "What is the battery back-up time for the Modem <b> or <b> For how much time the Modem (CM1x) will track the machine without Machine Ignition switched on ?",
       "reply": "The current setup is 30 days with 1 wake up/day."
     }];
 

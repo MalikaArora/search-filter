@@ -110,8 +110,12 @@ export class BlogComponent {
       "category": "Modem",
       "query": "Will Telematics work in remote area ?",
       "reply": "Yes, provided we have internet connectivity in the remote area. If the internet connectivity is not there, then the data will be stored in Modem and the data will be transmitted as soon as the machine shifts to the location where the internet connection is active."
-    }
-  ];
+    },
+    {
+      "category": "Modem",
+      "query": "What is the battery back-up time for the Modem or For how much time the Modem (CM1x) will track the machine without Machine Ignition switched on ?",
+      "reply": "The current setup is 30 days with 1 wake up/day."
+    }];
 
 
   ngOnInit() {

@@ -108,7 +108,7 @@ export class BlogComponent {
     {
       "category": "Modem",
       "query": "What is the battery back-up time for the Modem <br> or <br> For how much time the Modem (CM1x) will track the machine without Machine Ignition switched on?",
-      "reply": "The current setup is 30 days with 1 wake up/day for CM1X Modem. <br> he current setup is 100 days with 1 wake up/day for P&CM Modem."
+      "reply": "The current setup is 30 days with 1 wake up/day for CM1X Modem. <br> However, the current setup is 100 days with 1 wake up/day for P&CM Modem."
     },
     {
       "category": "SiteWatch",
@@ -118,7 +118,7 @@ export class BlogComponent {
     {
       "category": "Machine Tracking",
       "query": "If any Construction Equipment Machine that is equipped with Telematics is being shipped from one location to another on a trailer and the machine engine/ignition is switched-off, will we be able to track the machine’s changing location?",
-      "reply": "Yes, we will be able to track the movement for a limited period of time if the motion detection feature is active. <br> Otherwise, we will receive only the position of the machines only once per day."
+      "reply": "Yes, we will be able to track the movement for a limited period of time if the motion detection feature is active. <br> Otherwise, we will receive the position of the machines only once per day."
     },
     {
       "category": "Data Accuracy",

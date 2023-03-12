@@ -67,7 +67,7 @@ export class BlogComponent {
       "reply": "As of now, all machines in 2023 are planned to rolled-out with CM1X Telematics -Except 450DX"
     },
     {
-      "category": "Subscription",
+      "category": "SiteWatch",
       "query": "What is the subscription cost for 2nd and third year?&nbsp;",
       "reply": "We are yet to decide on this, but the &nbsp;approximate cost will $80-$90 per annum. <br/> We will come up with an attractive plan"
     },
@@ -83,32 +83,37 @@ export class BlogComponent {
     },
     {
       "category": "Benefits",
-      "query": "Can the benefits be converted into currency ?",
+      "query": "Can the benefits be converted into currency?",
       "reply": "It has been proven in the real-world that Telematics can bring-in additional revenue related to Parts and Service and also gain customer loyalty due to increased touch points. For CNH, it will all depend on the seriousness and intensity with which we educate our dealer and end-customer on the features of Telematics."
     },
     {
       "category": "Customer Portal",
-      "query": "If customer wants his machine not visible, what to do ?",
+      "query": "If customer wants his machine not visible, what to do?",
       "reply": "The customer can see his machine in SiteWatch and will have a choice to enable or disable the machine on SiteWatch. <BR> However, the machine will be visible to dealer and CNH Industrial even though the SiteWatch subscription is not renewed."
     },
     {
       "category": "SMS",
-      "query": "Will the customer get an SMS. if any abnormality ?",
+      "query": "Will the customer get an SMS. if any abnormality?",
       "reply": "We can setup alarms and alerts through mails and not through SMS."
     },
     {
       "category": "Benefits",
-      "query": "How will the dealer get benefitted from telematics ?",
+      "query": "How will the dealer get benefitted from telematics?",
       "reply": "<ul><li>The dealer organizations that engage and actively participate with Telematics see greater opportunities and recognize greater profit </li><li>Increased customer touch points</li><li>More efficient rental fleet monitoring and billing</li><li>Maintenance alerts and more efficient scheduling</li><li>Reduced data collection costs</li><li>More efficient troubleshooting</li><li>Opportunity to up-sell and showcase new products</li><li>Increased parts sales</li><li>Increased service department revenue</li><li>Higher machine resale with documented care</li><li>Increased customer satisfaction</li></ul>"},
     {
       "category": "Modem",
-      "query": "Will Telematics work in remote area ?",
+      "query": "Will Telematics work in remote area?",
       "reply": "Yes, provided we have internet connectivity in the remote area. If the internet connectivity is not there, then the data will be stored in Modem and the data will be transmitted as soon as the machine shifts to the location where the internet connection is active."
     },
     {
       "category": "Modem",
-      "query": "What is the battery back-up time for the Modem <br> or <br> For how much time the Modem (CM1x) will track the machine without Machine Ignition switched on ?",
+      "query": "What is the battery back-up time for the Modem <br> or <br> For how much time the Modem (CM1x) will track the machine without Machine Ignition switched on?",
       "reply": "The current setup is 30 days with 1 wake up/day."
+    },
+    {
+      "category": "SiteWatch",
+      "query": "•	If the SiteWatch Subscription has been activated for a customer by the dealer, what are the steps that dealer need to follow to install SiteWatch software?",
+      "reply": "If the dealer has activated the machine on the TSP (Telematics Service Portal) and has assigned to a customer company, that customer company should have a SiteWatch user associated. When the dealer creates an account for the customer, they have to insert the email of the customer in the form so that the customer will receive notification via mail to properly setup his account. <br> User and dealer do not need to install any software, they have simply to operate the web portal URL <br> (https://www.casesitewatch.com/)"
     }];
 
 

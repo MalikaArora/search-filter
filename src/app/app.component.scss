@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('../assets/fonts/Century Gothic/century-gothic/CenturyGothic.ttf');
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('../assets/fonts/Century Gothic/century-gothic/GOTHICB.TTF');
+  font-weight: bold;
+}
+
 .body {
   font-family: "Century Gothic"
 }
@@ -39,7 +50,7 @@
   display: block;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: bold;
   margin: 0 auto;
   // padding: 1em 0;
   // padding: 2em 0;

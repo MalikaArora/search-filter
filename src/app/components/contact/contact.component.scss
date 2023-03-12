@@ -1,3 +1,13 @@
+@font-face {
+	font-family: 'Century Gothic';
+	src: url('../../../assets/fonts/Century Gothic/century-gothic/CenturyGothic.ttf');
+  }
+  @font-face {
+	font-family: 'Century Gothic';
+	src: url('../../../assets/fonts/Century Gothic/century-gothic/GOTHICB.TTF');
+	font-weight: bold;
+  }
+
 .hidden {
 	display: none
 }
@@ -17,7 +27,7 @@ form.contact {
 	padding-bottom: 50px;
 	
 	mat-label {
-		font-weight: 600;
+		font-weight: bold;
 	}
 }
 input,
@@ -36,7 +46,7 @@ textarea {
 }
 button {
 	margin-top: 10px;
-	font-family: 'century gothic';
+	font-family: 'Century Gothic';
 	font-weight: bold;
 	font-size: larger;
 	background-color: transparent;

@@ -28,7 +28,7 @@ export class BlogComponent {
     {
       "category": "Modem",
       "query": "What is the diffence between CM1X and P&CM Modem?",
-      "reply": "<img src='../../../assets/images/answer.bmp' style='height: 300px'>",
+      "reply": "<img src='../../../assets/images/answer.bmp' style='width: 100%'>",
       "meta" : "Connectivity Module"
     },
     {
@@ -48,11 +48,6 @@ export class BlogComponent {
     },
     {
       "category": "Modem",
-      "query": "What is the diffence between CM1X and P&amp;CM Modem?",
-      "reply": "Description: Connectivity Module; Processing &amp; Connectivity Module<br />Internet:  4G; 4G<br />Supplier: Tierra (Topcon); Actia<br />Parameters: Max 40 parameters on Fleet Portal &amp; UCR; Max 40 parameters on Fleet portal, 80+ parameters on UCR<br />Compatibilty: CAN \/ non-CAN machine ; CAN machine<br />Connectivity: Wi-Fi \/ Bluetooth; Wi-Fi \/ Bluetooth<br />Remote Assistance Feature: No; Yes (with RST)"
-    },
-    {
-      "category": "Modem",
       "query": "Is it possible for Dealer or customer to swap Modems between Machines?",
       "reply": "No, they don’t because not allowed by CNHi, if someone will do the exchange the modem will be “backlisted” and not reconfigured."
     },
@@ -68,7 +63,7 @@ export class BlogComponent {
     },
     {
       "category": "Modem",
-      "query": "Which machines will be fitted with CM1X ?",
+      "query": "Which machines will be fitted with CM1X?",
       "reply": "As of now, all machines in 2023 are planned to rolled-out with CM1X Telematics -Except 450DX"
     },
     {
@@ -83,8 +78,8 @@ export class BlogComponent {
     },
     {
       "category": "Benefits",
-      "query": "How will be the customer benefit?",
-      "reply": "Equipment Utilization <br />Idle Time <br /> Fuel Reporting <br />Preventive Maintenance Management<br />Equipment location (for operational dispatch, service\/repair\/theft prevention)\nEquipment availability for jobs<br />Pre and Post Inspection gaps and deficiencies, and manual processes<br />Confirmation of asset use and location, i.e. change orders, billable work stoppage"
+      "query": "How will the customer benefit?",
+      "reply": "<ul> <li> Equipment Utilization </li><li>Idle Time </li> <li>Fuel Reporting </li> <li>Preventive Maintenance Management</li><li>Equipment location (for operational dispatch, service\/repair\/theft prevention)</li><li>Equipment availability for jobs</li> <li>Pre and Post Inspection gaps and deficiencies, and manual processes</li> <li>Confirmation of asset use and location, i.e. change orders, billable work stoppage</li>"
     },
     {
       "category": "Benefits",
@@ -94,7 +89,7 @@ export class BlogComponent {
     {
       "category": "Customer Portal",
       "query": "If customer wants his machine not visible, what to do ?",
-      "reply": "The customer can see his machine in SiteWatch and will have a choice to enable or disable the machine on SiteWatch. {{withBreaksHtml}} However, the machine will be visible to dealer and CNH Industrial even though the SiteWatch subscription is not renewed."
+      "reply": "The customer can see his machine in SiteWatch and will have a choice to enable or disable the machine on SiteWatch. <BR> However, the machine will be visible to dealer and CNH Industrial even though the SiteWatch subscription is not renewed."
     },
     {
       "category": "SMS",
@@ -103,9 +98,8 @@ export class BlogComponent {
     },
     {
       "category": "Benefits",
-      "query": "How will the dealer Get benefitted from telematics ?",
-      "reply": "The dealer organizations that engage and actively participate with Telematics see greater opportunities and recognize greater profit <br/> Increased customer touch points\nMore efficient rental fleet monitoring and billing\nMaintenance alerts and more efficient scheduling\nReduced data collection costs\nMore efficient troubleshooting\nOpportunity to up-sell and showcase new products\nIncreased parts sales\nIncreased service department revenue\nHigher machine resale with documented care\nIncreased customer satisfaction"
-    },
+      "query": "How will the dealer get benefitted from telematics ?",
+      "reply": "<ul><li>The dealer organizations that engage and actively participate with Telematics see greater opportunities and recognize greater profit </li><li>Increased customer touch points</li><li>More efficient rental fleet monitoring and billing</li><li>Maintenance alerts and more efficient scheduling</li><li>Reduced data collection costs</li><li>More efficient troubleshooting</li><li>Opportunity to up-sell and showcase new products</li><li>Increased parts sales</li><li>Increased service department revenue</li><li>Higher machine resale with documented care</li><li>Increased customer satisfaction</li></ul>"},
     {
       "category": "Modem",
       "query": "Will Telematics work in remote area ?",

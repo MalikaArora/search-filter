@@ -59,7 +59,7 @@ export class ContactComponent {
             this.form.enable(); // re enable the form after a success
             this.submitted = true; // show the response message
             this.isLoading = false; // re enable the submit button
-            console.log(error);
+            console.log("error ",error);
           }
         );
     }

@@ -43,7 +43,7 @@ export class ContactComponent {
         , formData).subscribe(
           (response) => {
             // choose the response message
-            console.log(response["result"]);
+            console.log("result ",response["result"]);
             if (response["result"] == "success") {
               this.responseMessage = "Thanks for the message! I'll get back to you soon!";
             } else {

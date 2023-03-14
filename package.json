@@ -1,17 +1,14 @@
 {
   "name": "angular-text-search-highlight",
   "version": "1.0.0",
-  "description": "Demonstration of a text search with highlighting in Angular 8",
+  "description": "CNH Industrial CE Telematics",
   "author": {
-    "name": "Idris Rampurawala",
-    "url": "https://github.com/idris-rampurawala",
-    "github": "https://github.com/idris-rampurawala",
-    "twitter": "https://twitter.com/idRampurawala"
+    "name": "TPS Arora"
   },
   "contributors": [
     {
-      "name": "Idris Rampurawala",
-      "url": "https://github.com/idris-rampurawala"
+      "name": "TPS Arora",
+      "url": "https://github.com/TavinderArora"
     }
   ],
   "license": "MIT",

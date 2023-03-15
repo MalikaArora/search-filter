@@ -20,7 +20,7 @@ import { ModemPartComponent } from './components/modem-part/modem-part.component
 import { InternetPartsComponent } from './components/internet-parts/internet-parts.component';
 import { SubscriptionPartsComponent } from './components/subscription-parts/subscription-parts.component';
 import { UniversaldiaPartsComponent } from './components/universaldia-parts/universaldia-parts.component';
-
+import { InstallationManualComponent } from './components/installation-manual/installation-manual.component';
 
 @NgModule({
   declarations: [
@@ -34,8 +34,8 @@ import { UniversaldiaPartsComponent } from './components/universaldia-parts/univ
     ModemPartComponent,
     InternetPartsComponent,
     SubscriptionPartsComponent,
-    UniversaldiaPartsComponent
-
+    UniversaldiaPartsComponent,
+    InstallationManualComponent
   ],
   imports: [
     BrowserModule,
@@ -57,8 +57,8 @@ import { UniversaldiaPartsComponent } from './components/universaldia-parts/univ
     ModemPartComponent,
     InternetPartsComponent,
     SubscriptionPartsComponent,
-    UniversaldiaPartsComponent
-
+    UniversaldiaPartsComponent,
+    InstallationManualComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -43,7 +43,7 @@ export class ContactComponent {
         , formData).subscribe(
           (response) => {
             // choose the response message
-            console.log("result ",response["result"]);
+            console.log("result ", response["result"]);
             if (response["result"] == "success") {
               this.responseMessage = "Thanks for the message! I'll get back to you soon!";
             } else {
@@ -59,7 +59,7 @@ export class ContactComponent {
             this.form.enable(); // re enable the form after a success
             this.submitted = true; // show the response message
             this.isLoading = false; // re enable the submit button
-            console.log("error ",error);
+            console.log("error ", error);
           }
         );
     }

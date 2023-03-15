@@ -7,12 +7,14 @@ import { ModemPartComponent } from './components/modem-part/modem-part.component
 import { InternetPartsComponent } from './components/internet-parts/internet-parts.component';
 import { SubscriptionPartsComponent } from './components/subscription-parts/subscription-parts.component';
 import { UniversaldiaPartsComponent } from './components/universaldia-parts/universaldia-parts.component';
+import { InstallationManualComponent } from './components/installation-manual/installation-manual.component';
 
 const appRoutes: Routes = [
-    { path: 'tab1', component: HomeComponent },
-    { path: 'tab3', component: ContactComponent },
-    { path: 'tab2', component: BlogComponent },
-    { path: 'tab4', component: ModemDetailsComponent,
+    { path: 'home', component: HomeComponent },
+    { path: 'contact', component: ContactComponent },
+    { path: 'faq', component: BlogComponent },
+    { path: 'installationmanual', component: InstallationManualComponent },
+    { path: 'modemdetails', component: ModemDetailsComponent,
     children: [
         {
           path: 'submodule1',
@@ -39,7 +41,7 @@ const appRoutes: Routes = [
       ] },
 
     // otherwise redirect to home
-    { path: '**', redirectTo: 'tab1' }
+    { path: '**', redirectTo: 'home' }
 ];
 
 export const routing = RouterModule.forRoot(appRoutes);

@@ -9,13 +9,16 @@ import { SubscriptionPartsComponent } from './components/subscription-parts/subs
 import { UniversaldiaPartsComponent } from './components/universaldia-parts/universaldia-parts.component';
 import { InstallationManualComponent } from './components/installation-manual/installation-manual.component';
 import { TrainingMaterialComponent } from './components/training-material/training-material.component';
+import { VideosComponent } from './components/videos/videos.component';
+
 const appRoutes: Routes = [
     { path: 'home', component: HomeComponent },
     { path: 'contact', component: ContactComponent },
     { path: 'faq', component: BlogComponent },
     { path: 'installationmanual', component: InstallationManualComponent },
     { path: 'trainingmaterial', component: TrainingMaterialComponent },
-    { path: 'modemdetails', component: ModemDetailsComponent,
+    { path: 'videos', component: VideosComponent },
+       { path: 'modemdetails', component: ModemDetailsComponent,
     children: [
         {
           path: 'submodule1',

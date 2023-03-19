@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { InstallationManualComponent } from './installation-manual.component';
+import { TrainingMaterialComponent } from './training-material.component';
 
-describe('InstallationManualComponent', () => {
-  let component: InstallationManualComponent;
-  let fixture: ComponentFixture<InstallationManualComponent>;
+describe('TrainingMaterialComponent', () => {
+  let component: TrainingMaterialComponent;
+  let fixture: ComponentFixture<TrainingMaterialComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ InstallationManualComponent ]
+      declarations: [ TrainingMaterialComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(InstallationManualComponent);
+    fixture = TestBed.createComponent(TrainingMaterialComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -45,7 +45,7 @@ export class ContactComponent {
             // choose the response message
             console.log("result ", response["result"]);
             if (response["result"] == "success") {
-              this.responseMessage = "Thanks for the message! I'll get back to you soon!";
+              this.responseMessage = "Thanks for the message! We will get back to you soon!";
             } else {
               this.responseMessage = "Oops! Something went wrong... Reload the page and try again.";
             }

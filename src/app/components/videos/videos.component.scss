@@ -4,6 +4,22 @@
     a {
         color: transparent;
     }
+
+    &-title {
+      color: #c3231e;
+      display: flex;
+      gap: 15px;
+      align-content: center;
+      align-items: center;
+
+      img {
+        max-width: 5%;
+        height: auto;
+        width: auto;
+        display: block;
+        cursor: pointer;
+      }
+    }
 }
 
 .mat-icon {

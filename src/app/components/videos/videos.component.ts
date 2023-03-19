@@ -7,17 +7,17 @@ import { Component } from '@angular/core';
 })
 export class VideosComponent {
   openVideo1() {
-    window.open('../../../assets/pdf/01 Power of Telematics.mp4', '_blank');
+    window.open('../../../assets/videos/01 Power of Telematics.mp4', '_blank');
   }
 
-    openVideo2() {
-      window.open('../../../assets/pdf/02 SiteWatch.mp4', '_blank');
-    }
+  openVideo2() {
+    window.open('../../../assets/videos/02 SiteWatch.mp4', '_blank');
+  }
 
-      openVideo3() {
-        window.open('../../../assets/pdf/03 SiteConnect.mp4', '_blank');
-      }
-        openVideo4() {
-          window.open('../../../assets/pdf/04 Customer Testmonials.mp4', '_blank');
-        }
+  openVideo3() {
+    window.open('../../../assets/videos/03 SiteConnect.mp4', '_blank');
+  }
+  openVideo4() {
+    window.open('../../../assets/videos/04 Customer Testmonials.mp4', '_blank');
+  }
 }

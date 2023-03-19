@@ -19,7 +19,7 @@
 
 /* Style the tab */
 .tab {
-  overflow: hidden;
+  // overflow: hidden;
   background-color: #c3231e;
   border-bottom: 2px solid rgba(0, 0, 0, .03);
   color: #fff;
@@ -38,8 +38,8 @@
   text-align: center;
   align-items: center;
   display: flex;
+  justify-content: space-evenly;
   flex: 1;
-  justify-content: center;
 }
 
 /* Style the buttons inside the tab */
@@ -51,7 +51,7 @@
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 15px;
   font-weight: bold;
-  margin: 0 auto;
+  // margin: 0 auto;
   // padding: 1em 0;
   // padding: 2em 0;
 
@@ -59,7 +59,7 @@
 
   border: 0 none;
   display: inline-block;
-  padding: 0.4em 0 0.4em 1.8em;
+  // padding: 0.4em 0 0.4em 1.8em;
   position: relative;
 
   //   background-color: inherit;

@@ -4,6 +4,16 @@
     a {
         color: transparent;
     }
+
+    h2 {
+      color: #c3231e;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
 }
 
 .mat-icon {

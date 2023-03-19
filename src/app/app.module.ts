@@ -21,7 +21,7 @@ import { InternetPartsComponent } from './components/internet-parts/internet-par
 import { SubscriptionPartsComponent } from './components/subscription-parts/subscription-parts.component';
 import { UniversaldiaPartsComponent } from './components/universaldia-parts/universaldia-parts.component';
 import { InstallationManualComponent } from './components/installation-manual/installation-manual.component';
-
+import { TrainingMaterialComponent } from './components/training-material/training-material.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +35,8 @@ import { InstallationManualComponent } from './components/installation-manual/in
     InternetPartsComponent,
     SubscriptionPartsComponent,
     UniversaldiaPartsComponent,
-    InstallationManualComponent
+    InstallationManualComponent,
+    TrainingMaterialComponent
   ],
   imports: [
     BrowserModule,
@@ -58,7 +59,8 @@ import { InstallationManualComponent } from './components/installation-manual/in
     InternetPartsComponent,
     SubscriptionPartsComponent,
     UniversaldiaPartsComponent,
-    InstallationManualComponent
+    InstallationManualComponent,
+    TrainingMaterialComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

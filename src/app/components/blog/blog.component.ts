@@ -26,30 +26,19 @@ export class BlogComponent {
 
   data = [
     {
-      "category": "Modem",
-      "query": "What is the diffence between CM1X and P&CM Modem?",
-      "reply": "<img src='../../../assets/images/answer.bmp' style='width: 100%'>",
-      "meta" : "Connectivity Module"
+      "category": "Benefits",
+      "query": "How will the customer benefit?",
+      "reply": "<ul> <li> Equipment Utilization </li><li>Idle Time </li> <li>Fuel Reporting </li> <li>Preventive Maintenance Management</li><li>Equipment location (for operational dispatch, service\/repair\/theft prevention)</li><li>Equipment availability for jobs</li> <li>Pre and Post Inspection gaps and deficiencies, and manual processes</li> <li>Confirmation of asset use and location, i.e. change orders, billable work stoppage</li>"
     },
     {
-      "category": "Modem",
-      "query": "Why do use the terminology CM1X?",
-      "reply": "Because we have two variants of Modem: With Internal Antenna (CM100) &amp; With External Antenna (CM110)"
+      "category": "Benefits",
+      "query": "Can the benefits be converted into currency?",
+      "reply": "It has been proven in the real-world that Telematics can bring-in additional revenue related to Parts and Service and also gain customer loyalty due to increased touch points. For CNH, it will all depend on the seriousness and intensity with which we educate our dealer and end-customer on the features of Telematics."
     },
     {
-      "category": "Internet",
-      "query": "Will CM1X although designed to work with 4G, with still work in regions wherein ISPs don’t offer 4G services?",
-      "reply": "Yes, CM1X will work with 2G, 3G or LTE (4G) but with subordinate performance and lower speed and with slower data transmission"
-    },
-    {
-      "category": "Machines",
-      "query": "How is the Fuel Consumption monitoried for CAN &amp; non-CAN\nMachines?",
-      "reply": "We can monitor the fuel consumption only for the CAN Machines. <br /> For non-CAN Machines, as we receive only analog signals, we will report only Fuel Level on the\nCustomer Subscription as it is not possible to report Fuel Consumption."
-    },
-    {
-      "category": "Modem",
-      "query": "Is it possible for Dealer or customer to swap Modems between Machines?",
-      "reply": "No, they don’t because not allowed by CNHi, if someone will do the exchange the modem will be “backlisted” and not reconfigured."
+      "category": "Benefits",
+      "query": "How will the dealer get benefitted from telematics?",
+      "reply": "<ul><li>The dealer organizations that engage and actively participate with Telematics see greater opportunities and recognize greater profit </li><li>Increased customer touch points</li><li>More efficient rental fleet monitoring and billing</li><li>Maintenance alerts and more efficient scheduling</li><li>Reduced data collection costs</li><li>More efficient troubleshooting</li><li>Opportunity to up-sell and showcase new products</li><li>Increased parts sales</li><li>Increased service department revenue</li><li>Higher machine resale with documented care</li><li>Increased customer satisfaction</li></ul>"
     },
     {
       "category": "Bosch Telematics",
@@ -62,69 +51,15 @@ export class BlogComponent {
       "reply": "They will gradually need to graduate to the new Telematics"
     },
     {
-      "category": "Modem",
-      "query": "Which machines will be fitted with CM1X?",
-      "reply": "As of now, all machines in 2023 are planned to rolled-out with CM1X Telematics -Except 450DX"
-    },
-    {
-      "category": "SiteWatch",
-      "query": "What is the subscription cost for 2nd and third year?&nbsp;",
-      "reply": "We are yet to decide on this, but the &nbsp;approximate cost will $80-$90 per annum. <br/> We will come up with an attractive plan"
-    },
-    {
-      "category": "Mobile Application",
-      "query": "Will there be a Mobile Application for Customers?",
-      "reply": "Yes, we are planning to have the same launched by end of 2023"
-    },
-    {
-      "category": "Benefits",
-      "query": "How will the customer benefit?",
-      "reply": "<ul> <li> Equipment Utilization </li><li>Idle Time </li> <li>Fuel Reporting </li> <li>Preventive Maintenance Management</li><li>Equipment location (for operational dispatch, service\/repair\/theft prevention)</li><li>Equipment availability for jobs</li> <li>Pre and Post Inspection gaps and deficiencies, and manual processes</li> <li>Confirmation of asset use and location, i.e. change orders, billable work stoppage</li>"
-    },
-    {
-      "category": "Benefits",
-      "query": "Can the benefits be converted into currency?",
-      "reply": "It has been proven in the real-world that Telematics can bring-in additional revenue related to Parts and Service and also gain customer loyalty due to increased touch points. For CNH, it will all depend on the seriousness and intensity with which we educate our dealer and end-customer on the features of Telematics."
-    },
-    {
-      "category": "Customer Portal",
-      "query": "If customer wants his machine not visible, what to do?",
-      "reply": "The customer can see his machine in SiteWatch and will have a choice to enable or disable the machine on SiteWatch. <BR> However, the machine will be visible to dealer and CNH Industrial even though the SiteWatch subscription is not renewed."
-    },
-    {
-      "category": "SMS",
-      "query": "Will the customer get an SMS. if any abnormality?",
-      "reply": "We can setup alarms and alerts through mails and not through SMS."
-    },
-    {
-      "category": "Benefits",
-      "query": "How will the dealer get benefitted from telematics?",
-      "reply": "<ul><li>The dealer organizations that engage and actively participate with Telematics see greater opportunities and recognize greater profit </li><li>Increased customer touch points</li><li>More efficient rental fleet monitoring and billing</li><li>Maintenance alerts and more efficient scheduling</li><li>Reduced data collection costs</li><li>More efficient troubleshooting</li><li>Opportunity to up-sell and showcase new products</li><li>Increased parts sales</li><li>Increased service department revenue</li><li>Higher machine resale with documented care</li><li>Increased customer satisfaction</li></ul>"},
-    {
-      "category": "Modem",
-      "query": "Will Telematics work in remote area?",
-      "reply": "Yes, provided we have internet connectivity in the remote area. If the internet connectivity is not there, then the data will be stored in Modem and the data will be transmitted as soon as the machine shifts to the location where the internet connection is active."
-    },
-    {
-      "category": "Modem",
-      "query": "What is the battery back-up time for the Modem <br> or <br> For how much time the Modem (CM1x) will track the machine without Machine Ignition switched on?",
-      "reply": "The current setup is 30 days with 1 wake up/day for CM1X Modem. <br> However, the current setup is 100 days with 1 wake up/day for P&CM Modem."
-    },
-    {
-      "category": "SiteWatch",
-      "query": "If the SiteWatch Subscription has been activated for a customer by the dealer, what are the steps that dealer need to follow to install SiteWatch software?",
-      "reply": "If the dealer has activated the machine on the TSP (Telematics Service Portal) and has assigned to a customer company, that customer company should have a SiteWatch user associated. When the dealer creates an account for the customer, they have to insert the email of the customer in the form so that the customer will receive notification via mail to properly setup his account. <br> User and dealer do not need to install any software, they have simply to operate the web portal URL <br> (https://www.casesitewatch.com/)"
-    },
-    {
-      "category": "Machine Tracking",
-      "query": "If any Construction Equipment Machine that is equipped with Telematics is being shipped from one location to another on a trailer and the machine engine/ignition is switched-off, will we be able to track the machine’s changing location?",
-      "reply": "Yes, we will be able to track the movement for a limited period of time if the motion detection feature is active. <br> Otherwise, we will receive the position of the machines only once per day."
-    },
-    {
       "category": "CAN Machines",
       "query": "Please share the list of CAN and non-CAN Machines?",
       "reply": "<img src='../../../assets/images/non-CAN.jpg' style='width: 50%'>",
       "meta" : "Connectivity Module"
+    },
+    {
+      "category": "Data Accuracy",
+      "query": "What is the percentage accuracy of the fuel consumption data or any other data being fetched by Telematics <br> What are the tolerances/scope of error for Telematics Data?",
+      "reply": "Data Accuracy will depend on the vehicle sensors. Telematics only reads the data from the CAN network. <br> The data is read with exactly the same accuracy as it is generated by machine sensors or the body computer/engine control unit that in most of the case is transmitted every 100 milliseconds."
     },
     {
       "category": "Data Transfer",
@@ -132,9 +67,66 @@ export class BlogComponent {
       "reply": "Earlier the time interval to transmit data from Modem to Customer Subscription (SiteWatch) was 10 minutes, however, from March 2023 the same has been reduced to 1 minute."
     },
     {
+      "category": "Customer Portal",
+      "query": "If customer wants his machine not visible, what to do?",
+      "reply": "The customer can see his machine in SiteWatch and will have a choice to enable or disable the machine on SiteWatch. <BR> However, the machine will be visible to dealer and CNH Industrial even though the SiteWatch subscription is not renewed."
+    },
+
+    {
       "category": "Fleet Management System",
-      "query": "Can Case Connected Machines be viewed on Third-Party Fleet Management System??",
+      "query": "Can Case Connected Machines be viewed on Third-Party Fleet Management System?",
       "reply": "<ul><li>Yes, we can view Case Connected Machines on Third-Party Fleet Management System, however, the Third-Party Fleet Management Software/System should be AEMP 2.0 compliant and the customer needs to have an active SiteWatch Subscription </li><li>SiteWatch can export data to other programs through an API Token</li><li>“API Starting Guide” will help you with required steps </li></ul>"
+    },
+    {
+      "category": "Internet",
+      "query": "Will CM1X although designed to work with 4G, with still work in regions wherein ISPs don’t offer 4G services?",
+      "reply": "Yes, CM1X will work with 2G, 3G or LTE (4G) but with subordinate performance and lower speed and with slower data transmission"
+    },
+     {
+      "category": "Machines",
+      "query": "How is the Fuel Consumption monitoried for CAN &amp; non-CAN\nMachines?",
+      "reply": "We can monitor the fuel consumption only for the CAN Machines. <br /> For non-CAN Machines, as we receive only analog signals, we will report only Fuel Level on the\nCustomer Subscription as it is not possible to report Fuel Consumption."
+    },
+    {
+      "category": "Machine Tracking",
+      "query": "If any Construction Equipment Machine that is equipped with Telematics is being shipped from one location to another on a trailer and the machine engine/ignition is switched-off, will we be able to track the machine’s changing location?",
+      "reply": "Yes, we will be able to track the movement for a limited period of time if the motion detection feature is active. <br> Otherwise, we will receive the position of the machines only once per day."
+    },
+    {
+      "category": "Mobile Application",
+      "query": "Will there be a Mobile Application for Customers?",
+      "reply": "Yes, we are planning to have the same launched by end of 2023"
+    },
+    {
+      "category": "Modem",
+      "query": "What is the diffence between CM1X and P&CM Modem?",
+      "reply": "<img src='../../../assets/images/answer.bmp' style='width: 100%'>",
+      "meta" : "Connectivity Module"
+    },
+    {
+      "category": "Modem",
+      "query": "Why do use the terminology CM1X?",
+      "reply": "Because we have two variants of Modem: With Internal Antenna (CM100) &amp; With External Antenna (CM110)"
+    },
+    {
+      "category": "Modem",
+      "query": "Is it possible for Dealer or customer to swap Modems between Machines?",
+      "reply": "No, they don’t because not allowed by CNHi, if someone will do the exchange the modem will be “backlisted” and not reconfigured."
+    },
+    {
+      "category": "Modem",
+      "query": "Which machines will be fitted with CM1X?",
+      "reply": "As of now, all machines in 2023 are planned to rolled-out with CM1X Telematics -Except 450DX"
+    },
+    {
+      "category": "Modem",
+      "query": "What is the battery back-up time for the Modem <br> or <br> For how much time the Modem (CM1x) will track the machine without Machine Ignition switched on?",
+      "reply": "The current setup is 30 days with 1 wake up/day for CM1X Modem. <br> However, the current setup is 100 days with 1 wake up/day for P&CM Modem."
+    },
+    {
+      "category": "Modem",
+      "query": "Will Telematics work in remote area?",
+      "reply": "Yes, provided we have internet connectivity in the remote area. If the internet connectivity is not there, then the data will be stored in Modem and the data will be transmitted as soon as the machine shifts to the location where the internet connection is active."
     },
     {
       "category": "Request Support",
@@ -142,10 +134,34 @@ export class BlogComponent {
       "reply": "You should contact your Dealer and share your concern, or the problem observed on Telematics. Your Dealer should report the problem on TSP – Telematics Service Portal. Your Dealer needs to go to “Request Support” and report the problem online "
     }, 
     {
-      "category": "Data Accuracy",
-      "query": "What is the percentage accuracy of the fuel consumption data or any other data being fetched by Telematics <br> What are the tolerances/scope of error for Telematics Data?",
-      "reply": "Data Accuracy will depend on the vehicle sensors. Telematics only reads the data from the CAN network. <br> The data is read with exactly the same accuracy as it is generated by machine sensors or the body computer/engine control unit that in most of the case is transmitted every 100 milliseconds."
-    }];
+      "category": "SMS",
+      "query": "Will the customer get an SMS. if any abnormality?",
+      "reply": "We can setup alarms and alerts through mails and not through SMS."
+    },
+
+    {
+      "category": "SiteWatch",
+      "query": "What is the subscription cost for 2nd and third year?&nbsp;",
+      "reply": "We are yet to decide on this, but the &nbsp;approximate cost will $80-$90 per annum. <br/> We will come up with an attractive plan"
+    },
+    {
+      "category": "SiteWatch",
+      "query": "If the SiteWatch Subscription has been activated for a customer by the dealer, what are the steps that dealer need to follow to install SiteWatch software?",
+      "reply": "If the dealer has activated the machine on the TSP (Telematics Service Portal) and has assigned to a customer company, that customer company should have a SiteWatch user associated. When the dealer creates an account for the customer, they have to insert the email of the customer in the form so that the customer will receive notification via mail to properly setup his account. <br> User and dealer do not need to install any software, they have simply to operate the web portal URL <br> (https://www.casesitewatch.com/)"
+    },
+
+    {
+      "category": "TSP",
+      "query": "If Machine is shifted from one dealer to another dealer. What’s the process to assign the Connected Machine to the new dealer?",
+      "reply": "A Ticket needs to be opened in TSP by the original Dealer and request needs to be raised by the original Dealer to transfer the machine to the new Dealer location.<br> Thereafter, the Central Telematics Support Team will perform the transfer "
+    },    
+    {
+      "category": "TSP",
+      "query": "Can the Customer Subscription (SiteWatch) be transferred to another device / machine. If Dealer deactivates the Device/Modem in between, can he use the same Customer Subscription on another device?",
+      "reply": "The process that needs to be followed is as mentioned below: <ul><li>Machine is equipped with a Device/Modem that is activated at the end of Assembly Line </li><li>Machine is assigned to customer A; Customer Subscription (SiteWatch) is assigned to the VIN (Vehicle Identification Number)</li><li>If machine is sold to customer B, the same Customer Subscription (SiteWatch) can be used but customer B has to be clearly informed by the Dealer that the machine is equipped with the Telematics along with the validity of the Customer Subscription (SiteWatch) </li></ul> Therefore, to summarize, the subscription is linked to the machine. The only case where the subscription can be transferred is when a device is replaced in case the earlier Modem/Device that was installed was faulty. <BR> The Customer Subscription (SiteWatch) needs to aligned for respective machine and is not transferable"
+    }
+
+  ];
 
 
   ngOnInit() {

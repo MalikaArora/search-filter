@@ -54,7 +54,7 @@ export class BlogComponent {
       "category": "CAN Machines",
       "query": "Please share the list of CAN and non-CAN Machines?",
       "reply": "<img src='../../../assets/images/non-CAN.jpg' style='width: 50%'>",
-      "meta" : "Connectivity Module"
+      "meta": "Connectivity Module"
     },
     {
       "category": "Data Accuracy",
@@ -82,7 +82,7 @@ export class BlogComponent {
       "query": "Will CM1X although designed to work with 4G, with still work in regions wherein ISPs don’t offer 4G services?",
       "reply": "Yes, CM1X will work with 2G, 3G or LTE (4G) but with subordinate performance and lower speed and with slower data transmission"
     },
-     {
+    {
       "category": "Machines",
       "query": "How is the Fuel Consumption monitoried for CAN &amp; non-CAN\nMachines?",
       "reply": "We can monitor the fuel consumption only for the CAN Machines. <br /> For non-CAN Machines, as we receive only analog signals, we will report only Fuel Level on the\nCustomer Subscription as it is not possible to report Fuel Consumption."
@@ -101,7 +101,7 @@ export class BlogComponent {
       "category": "Modem",
       "query": "What is the diffence between CM1X and P&CM Modem?",
       "reply": "<img src='../../../assets/images/answer.bmp' style='width: 100%'>",
-      "meta" : "Connectivity Module"
+      "meta": "Connectivity Module"
     },
     {
       "category": "Modem",
@@ -132,7 +132,7 @@ export class BlogComponent {
       "category": "Request Support",
       "query": "Whom should I contact if Telematics on my machine is not working?",
       "reply": "You should contact your Dealer and share your concern, or the problem observed on Telematics. Your Dealer should report the problem on TSP – Telematics Service Portal. Your Dealer needs to go to “Request Support” and report the problem online "
-    }, 
+    },
     {
       "category": "SMS",
       "query": "Will the customer get an SMS. if any abnormality?",
@@ -154,7 +154,7 @@ export class BlogComponent {
       "category": "TSP",
       "query": "If Machine is shifted from one dealer to another dealer. What’s the process to assign the Connected Machine to the new dealer?",
       "reply": "A Ticket needs to be opened in TSP by the original Dealer and request needs to be raised by the original Dealer to transfer the machine to the new Dealer location.<br> Thereafter, the Central Telematics Support Team will perform the transfer "
-    },    
+    },
     {
       "category": "TSP",
       "query": "Can the Customer Subscription (SiteWatch) be transferred to another device / machine. If Dealer deactivates the Device/Modem in between, can he use the same Customer Subscription on another device?",
@@ -191,8 +191,9 @@ export class BlogComponent {
         if (this.platformSettings.length == 0) this.searchSettings = this.data;
         this.searchSettings = Object.values(this.searchSettings)
           .filter((item) => item.query.toLowerCase().includes(trimmedKeyLowerCase)
-          || item.reply.toLowerCase().includes(trimmedKeyLowerCase)
-          || item.meta?.toLowerCase().includes(trimmedKeyLowerCase));
+            || item.category.toLowerCase().includes(trimmedKeyLowerCase)
+            || item.reply.toLowerCase().includes(trimmedKeyLowerCase)
+            || item.meta?.toLowerCase().includes(trimmedKeyLowerCase));
       }
 
       else {
@@ -201,14 +202,15 @@ export class BlogComponent {
         console.log("searchOriginalSettings ", this.searchOriginalSettings);
         this.searchSettings = Object.values(this.searchOriginalSettings)
           .filter((item) => item.query.toLowerCase().includes(trimmedKeyLowerCase)
-          || item.reply.toLowerCase().includes(trimmedKeyLowerCase)
-          || item.meta.toLowerCase().includes(trimmedKeyLowerCase));
+            || item.category.toLowerCase().includes(trimmedKeyLowerCase)
+            || item.reply.toLowerCase().includes(trimmedKeyLowerCase)
+            || item.meta.toLowerCase().includes(trimmedKeyLowerCase));
       }
       console.log(searchKey);
 
       console.log("in trimmedKeyLowerCase", trimmedKeyLowerCase);
       console.log("searchsettings ", this.searchSettings);
-          this.inputSearchSettings = this.searchSettings;
+      this.inputSearchSettings = this.searchSettings;
 
     }
     else {
@@ -217,7 +219,7 @@ export class BlogComponent {
       if (this.platformList.size === 0) {
         this.searchIsOn = false;
         this.searchSettings = [];
-        
+
       }
       else this.searchSettings = this.platformSettings;
     }
@@ -253,8 +255,8 @@ export class BlogComponent {
               .filter((item) => {
                 return item.category.toLowerCase().includes(trimmedKeyLowerCase);
               }));
-              this.searchSettings.push(...this.platformSettings);
-              this.platformSettings = this.searchSettings;
+            this.searchSettings.push(...this.platformSettings);
+            this.platformSettings = this.searchSettings;
             // for (const inputSearch of this.inputSearchSettings) {
             //   for (const filterPlatform of this.platformList) {
             //     if (inputSearch[filterPlatform] !== undefined && !this.data.includes(inputSearch)) {

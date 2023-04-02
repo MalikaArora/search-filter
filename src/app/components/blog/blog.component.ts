@@ -297,6 +297,6 @@ export class BlogComponent {
     this.searchSettings = [];
     this.inputSearchSettings = [];
     this.platformFilter.forEach(item => item.selected = false);
-
+    this.searchText = '';
   }
 }

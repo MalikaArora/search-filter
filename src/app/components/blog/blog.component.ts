@@ -155,7 +155,9 @@ export class BlogComponent {
 
     for (let category of this.categories) {
       this.platformFilter.push({ "name": category, "selected": false })
-    }
+    };
+    this.platformFilter.sort((a, b) => a.name.localeCompare(b.name));
+
   }
 
   public onSearchOrders(searchKey: string): void {

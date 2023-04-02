@@ -26,7 +26,7 @@
     margin: 10px 0 10px 10px;
     border: 1px solid #ced4da;
     padding: 10px;
-    height: 80px;
+    // height: 80px;
     align-items: center;
     // width: 100%;
     label {
@@ -117,8 +117,13 @@ td {
   &-text {
     align-content: center;
     white-space: nowrap;
-    height: 30px;
-    padding: 0 4px 0 4px;
+    // height: 30px;
+    padding: 0 6px 0 6px;
+
+    input {
+cursor: pointer;
+    }
+    
   }
   
 }

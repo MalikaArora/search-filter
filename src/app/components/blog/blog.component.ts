@@ -138,12 +138,17 @@ export class BlogComponent {
       "query": "Will the customer get an SMS. if any abnormality?",
       "reply": "We can setup alarms and alerts through mails and not through SMS."
     },
-
+    {
+      "category": "SiteConnect",
+      "query": "What is the subscription cost for SiteConnect?",
+      "reply": "SiteConect is an application or interface for Dealers. <BR> There is no subscription fee associated with SiteConnect Activation. <BR> SiteConnet can be accessed by Dealers through eTIM Application."
+    },
     {
       "category": "SiteWatch",
       "query": "What is the subscription cost for 2nd and third year?&nbsp;",
-      "reply": "We are yet to decide on this, but the &nbsp;approximate cost will $80-$90 per annum. <br/> We will come up with an attractive plan"
+      "reply": "We are yet to decide on this. <br/> We will come up with an attractive plan"
     },
+
     {
       "category": "SiteWatch",
       "query": "If the SiteWatch Subscription has been activated for a customer by the dealer, what are the steps that dealer need to follow to install SiteWatch software?",

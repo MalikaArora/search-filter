@@ -78,6 +78,12 @@ export class BlogComponent {
       "reply": "<ul><li>Yes, we can view Case Connected Machines on Third-Party Fleet Management System, however, the Third-Party Fleet Management Software/System should be AEMP 2.0 compliant and the customer needs to have an active SiteWatch Subscription </li><li>SiteWatch can export data to other programs through an API Token</li><li>“API Starting Guide” will help you with required steps </li></ul>"
     },
     {
+      "category": "Immobilize the Machine Remotely",
+      "query": "Is there any option to immobilize the machine remotely that is equipped with Telematics?",
+      "reply": "Not possible with the current versions of the Telematics CM1X or P&CM3. There is a possibility to introduce this option on both CM1X or P&CM3. This option will have a provision of pilot relay on the key to prevent the ignition. However, we need to discuss on the same and finalize development cost and plan. <BR> <BR> Also, the remote control of the machine involves some safety factor that have to be considered. For example, imagine an extreme scenario of a TLB crossing a railway line and while it is crossing, the engine shuts down as someone turned off the remote ignition, in that situation the customer will not be able to restart the engine and may face catastrophic consequences."
+    },
+    
+    {
       "category": "Internet",
       "query": "Will CM1X although designed to work with 4G, with still work in regions wherein ISPs don’t offer 4G services?",
       "reply": "Yes, CM1X will work with 2G, 3G or LTE (4G) but with subordinate performance and lower speed and with slower data transmission"
@@ -153,6 +159,11 @@ export class BlogComponent {
       "category": "SiteWatch",
       "query": "If the SiteWatch Subscription has been activated for a customer by the dealer, what are the steps that dealer need to follow to install SiteWatch software?",
       "reply": "If the dealer has activated the machine on the TSP (Telematics Service Portal) and has assigned to a customer company, that customer company should have a SiteWatch user associated. When the dealer creates an account for the customer, they have to insert the email of the customer in the form so that the customer will receive notification via mail to properly setup his account. <br> User and dealer do not need to install any software, they have simply to operate the web portal URL <br> (https://www.casesitewatch.com/)"
+    },
+    {
+      "category": "Theft",
+      "query": "Please confirm if the Telematics will give a warning signal if somebody deliberately cut the cables. Some customers may not want their machine to be traceable, in specific, to the financiers?",
+      "reply": "The customer can pull out the Modem or disconnect the cables, however, there will be no warning signal that will get generated. Telematics can’t differentiate between Key-off / Machine-off / Modem disconnected (wires pulled-out / cable disconnection). If the modem was just disconnected and not pulled out of machine and thrown to a different location or not destroyed or crushed then, in that case, following scenarios might be possible: <BR> <b>Scenario-1 [Modems with Internal Antenna]:</b><BR> Modem (CM100) that was installed was without Antenna and if the same has not been destroyed or pulled out of the machine, then, in that case, either the “Motion Detection” Feature or the internal battery will wake-up the device once in 24 hours and will transmit the current location of the machine. The current setup for the battery back-up is 30 days with one wake-up configured in 24 hours for CM1X. The current setup for the battery back-up is 100 days with one wake-up configured in 24 hours for P&CM Modem (Advanced Modem).<BR> <b> Scenario-2 [Modems with External Antenna]: </b> <BR> Modem (CM110 / P&CM) that was installed was with Antenna and if the same has just been disconnected and not been destroyed or pulled out of the machine, then, in that case, either the “Motion Detection” Feature or the internal battery will wake-up the device once in 24 hours and will transmit the current location of the machine.<BR> The current setup for the battery back-up is 100 days with one wake-up configured in 24 hours for P&CM Modem (Advanced Modem). P&CM Modem will also get covered in this scenario as it is preferred/advisable to use P&CM with Antenna for optimal performance."
     },
 
     {
